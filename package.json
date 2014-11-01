@@ -1,0 +1,16 @@
+{
+	"name":"latte_webServer",
+    "version":"0.0.1",
+	"description": "latte_webServer",
+	"keywords": ["latte","latte_webServer"],
+	"author": "qiongtubao",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/qiongtubao/latte_webServer.git"
+	},
+	"dependencies": {
+		"latte_lib": "*",
+		"latte_db":"*"
+	}
+}
