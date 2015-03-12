@@ -1,0 +1,16 @@
+<html>
+<head>
+	<meta charset ="UTF-8">
+</head>
+<body>
+
+</body>
+<script type="text/javascript">
+	var xhr = new XMLHttpRequest();
+	xhr.open("POST", "http://127.0.0.1:10096/octetStream", true);
+	xhr.setRequestHeader("Content-type", "application/json");
+	xhr.send(JSON.stringify({
+		a: 1
+	}));
+</script>
+</html>
