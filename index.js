@@ -4,7 +4,8 @@
 		module.exports = require("./lib");
 		(function() {
 			this.Session = require("./lib/session");
-			this.Cookie = require("./lib/cookie.js");
+			this.Cookie = require("./lib/cookie");
+			this.Origin = require("./lib/utils").Origin;
 		}).call(module.exports);
 	});
 })(typeof define === "function"? define: function(name, reqs, factory) { factory(require, exports, module); });
