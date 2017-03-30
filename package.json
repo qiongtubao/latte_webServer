@@ -1,6 +1,6 @@
 {
-	"name":"latte_webServer",
-    "version":"1.0.0",
+	"name":"latte_web",
+    "version":"1.0.1",
 	"description": "latte_webServer",
 	"keywords": ["latte","latte_webServer"],
 	"author": "qiongtubao",
@@ -14,8 +14,10 @@
 	},
 	"dependencies": {
 		"latte_lib": "*",
-		"latte_db":"*",
 		"latte_verify": "*",
+		"latte_load": "*",
+		"latte_require": "*",
+		"latte_watch": "*",
 		"ws":"*"
 	}
 }
