@@ -9,9 +9,13 @@
 		"type": "git",
 		"url": "https://github.com/qiongtubao/latte_webServer.git"
 	},
+	"bin": {
+		"web": "bin/web"
+	},
 	"dependencies": {
 		"latte_lib": "*",
 		"latte_db":"*",
+		"latte_verify": "*",
 		"ws":"*"
 	}
 }
