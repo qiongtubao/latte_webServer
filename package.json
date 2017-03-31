@@ -19,6 +19,6 @@
 		"latte_require": "*",
 		"latte_watch": "*",
 		"latte_web_post": "*"
-,		"ws":"*"
+,		"ws":"1.1.1"
 	}
 }
