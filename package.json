@@ -1,6 +1,6 @@
 {
 	"name":"latte_web",
-    "version":"1.0.2",
+    "version":"0.1.0",
 	"description": "latte_webServer",
 	"keywords": ["latte","latte_webServer"],
 	"author": "qiongtubao",
