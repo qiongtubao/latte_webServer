@@ -1,7 +1,5 @@
 #!/usr/bin/env node
-(function(define) {'use strict'
-	define("latte", ["require", "exports", "module", "window"], 
-		function(require, exports, module, window) {
+
 			
 
 			
@@ -47,12 +45,10 @@
 						};
 
 						var Server = require("../lib");
-			            var server = new Server(config);
-			            
+			            var server = Server.bindServer("web",config);
 			            server.run();
 			    }
 				
 			}).call(web);
 			module.exports = web;
-		});
-})(typeof define === "function"? define: function(name, reqs, factory) { factory(require, exports, module); });
+	
